@@ -43,7 +43,7 @@ Login Page            |  Home Page | Check Page | Customer Page
 ## Purpose
 This app was created specifically for Alkhanshali Inc. and its gas stations. The purpose of this app is to digitize the end day reports to have a digital copy
 in case of need and to create a check database system between the three stores. By having this check database, workers in each store can see if the customer
-has cashed a check before or if any of there checks were fake and so on. This app also stores the customer information so the workers won't have to take 
+has cashed a check before or if any of the customer's checks were fake and so on. This app also stores the customer information so the workers won't have to take 
 any more of their information and as a result, saves time.
 	
 ## Tools
