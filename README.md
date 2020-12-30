@@ -11,7 +11,7 @@ This application creates end day reports for gas stations and is also a check da
 
 ## Preview
 
-<img src="score-tracker-gif.gif" width="200" height="420"/>
+<img src="demo_gif.gif" width="200" height="420"/>
 
 ## App Layout
 
