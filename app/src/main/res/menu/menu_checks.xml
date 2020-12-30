@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/icon_search"
+            app:showAsAction="always|collapseActionView"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            android:title="Search"/>
+
+        <item
+            android:id="@+id/action_filter"
+            android:title="Filter"
+            android:icon="@drawable/icon_filter"
+            android:visible="true"
+            app:showAsAction="always" />
+
+</menu>

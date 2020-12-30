@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionFilter"
+        android:title="Switch Reports"
+        android:icon="@drawable/icon_filter"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/actionSwitch"
+        android:title="Switch Reports"
+        android:icon="@drawable/icon_switch_arrow"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_Info"
+        android:title="Information"
+        android:icon="@drawable/icon_info"
+        android:visible="true"
+        app:showAsAction="always" />
+
+</menu>

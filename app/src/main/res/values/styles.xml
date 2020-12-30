@@ -1,0 +1,78 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme"  parent="Theme.MaterialComponents.Light">
+        <item name="android:windowBackground">@color/light_gray</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/light_gray</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/light_blue</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="colorControlActivated">@color/gray</item>
+        <item name="materialCalendarFullscreenTheme">@style/CustomThemeOverlay_MaterialCalendar_Fullscreen</item>
+    </style>
+
+    <style name="CustomThemeOverlay_MaterialCalendar_Fullscreen" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen">
+        <item name="materialCalendarStyle">@style/Custom_MaterialCalendar.Fullscreen</item>
+        <item name="materialCalendarHeaderTitle">@style/customHeaderTitle</item>
+        <item name="materialCalendarHeaderSelection">@style/CustomHeaderSelection</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Buttons</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Buttons</item>
+        <item name="android:textColorPrimary">@color/gold</item>
+        <item name="colorPrimary">@color/ultra_lighter_gray</item>
+        <item name="colorSurface">@color/ultra_light_gray</item>
+        <item name="colorOnSurface">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/gold</item>
+    </style>
+    <style name="Custom_MaterialCalendar.Fullscreen" parent="@style/Widget.MaterialComponents.MaterialCalendar.Fullscreen">
+        <item name="android:windowFullscreen">false</item>
+        <item name="rangeFillColor">@color/ultra_lighter_gray</item>
+        <item name="dayStyle">@style/CustomWidget_Day</item>
+        <item name="daySelectedStyle">@style/CustomSelected</item>
+    </style>
+    <style name="customHeaderTitle" parent="@style/Widget.MaterialComponents.MaterialCalendar.HeaderTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="colorSurface">@color/ultra_light_gray</item>
+    </style>
+    <style name="CustomHeaderSelection" parent="Widget.MaterialComponents.MaterialCalendar.HeaderSelection">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="CustomWidget_Day" parent="Widget.MaterialComponents.MaterialCalendar.Day">
+        <item name="android:textSize">18sp</item>
+        <item name="itemTextColor">@color/ultra_white</item>
+    </style>
+    <style name= "CustomSelected" parent="Widget.MaterialComponents.MaterialCalendar.Day.Selected">
+        <item name="itemFillColor">@color/ultra_lighter_gray</item>
+        <item name="itemStrokeColor">@color/ultra_white</item>
+    </style>
+    <style name="Buttons" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <!-- Style for Date Year Picker -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/ultra_light_gray</item>
+        <item name="android:colorAccent">@color/ultra_light_gray</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/whitish_background</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+    </style>
+
+    <!-- Style for Month Year Picker -->
+    <style name="MonthPickerDialogStyle">
+        <item name="monthBgColor">@color/ultra_light_gray</item>
+        <item name="monthBgSelectedColor">@color/colorPrimaryDark</item>
+        <item name="monthFontColorSelected">@color/ultra_lighter_gray</item>
+        <item name="monthFontColorNormal">@color/colorPrimaryDark</item>
+        <!--Header-->
+        <item name="headerBgColor">@color/ultra_light_gray</item>
+        <item name="headerFontColorSelected">@color/colorPrimaryDark</item>
+        <item name="headerFontColorNormal">@color/gray</item>
+        <item name="headerTitleColor">@color/red</item>
+        <!--Bottom of dialog-->
+        <item name="dialogActionButtonColor">@color/ultra_white</item>
+    </style>
+
+</resources>

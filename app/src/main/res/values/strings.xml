@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Oasis Utility</string>
+
+    <!-- navigation -->
+
+    <string name="search_hint">Looking for something?</string>
+
+    <!-- Camera -->
+    <string name="fileprovider">com.akapps.oasisutilities.fileprovider</string>
+    <string name="temp_photo">temporary_photo</string>
+    <string name="permission_prompt">Please accept to take photos!</string>
+
+    <!-- Orientation -->
+    <string name="portrait">Portrait</string>
+    <string name="landscape">Landscape</string>
+
+    <!-- data -->
+    <string name="customers_keyword">Customer</string>
+    <string name="companies_keyword">Company</string>
+    <string name="checks_keyword">Checks</string>
+    <string name="reports_keyword">Reports</string>
+    <string name="custom_reports_keyword">Custom_Reports</string>
+
+    <string name="c_symbol">&amp;reg;</string>
+
+    <string-array name="stores">
+        <item>Crows Landing</item>
+        <item>Manteca</item>
+        <item>Lander</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="tab">
+        <item>Companies</item>
+        <item>Customers</item>
+    </string-array>
+</resources>
