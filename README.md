@@ -22,23 +22,23 @@ Login Page            |  Home Page | Check Page | Customer Page
 ## Features
 
 * Login Page: 
-	* Login to any of the 3 store, each with their own passwords verified by Firebase Authentication
-	* User only needs to login once every 2 hours. Each time the app is started within the 2 hours, it will login in automatically
+	* Login to any of the 3 stores, each with their own passwords verified by Firebase Authentication.
+	* User only needs to login once every 2 hours. Each time the app is started within 2 hours, it will login in automatically.
 * Home Page: 
-	* Create/Delete reports
+	* Create/Delete reports.
 	* Create custom reports based on reports already in the system to find out the month/year/custom-date range sales.
 	* Sort reports by month/year/custom date range.
 * Check Page: 
-	* Add/Delete customers
-	* Add/Delete/Edit Checks and their pictures
-	* Searching capability to find a certain check or customer
-	* Customer can be searched using name or last 4 ID numbers
-	* Ability to filter checks/customers by specific store 
-	* Show all stores customers/checks
+	* Add/Delete customers.
+	* Add/Delete/Edit Checks and their pictures.
+	* Searching capability to find a certain check or customer.
+	* Customer can be searched using name or last 4 ID numbers.
+	* Ability to filter checks/customers by specific store.
+	* Show all stores customers/checks.
 * Customer Page:
-	* Add/Delete/Edit customer ID picture
-	* Add a new check cashed by customer and a oicture of the check
-	* Edit/Delete customer checks and their information like company name, amount, and status of check (real or fake)
+	* Add/Delete/Edit customer ID picture.
+	* Add a new check cashed by customer and a oicture of the check.
+	* Edit/Delete customer checks and their information like company name, amount, and status of check (real or fake).
 
 ## Purpose
 This app was created specifically for Alkhanshali Inc. and its gas stations. The purpose of this app is to digitize the end day reports to have a digital copy
