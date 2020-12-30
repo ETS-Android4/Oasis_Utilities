@@ -22,31 +22,29 @@ Login Page            |  Home Page | Check Page | Customer Page
 ## Features
 
 * Login Page: 
-	* Create/Delete/Reset players
-	* Set photos/avatars of players
-	* Sort players by wins, losses, draws, and games played
+	* Login to any of the 3 store, each with their own passwords verified by Firebase Authentication
+	* User only needs to login once every 2 hours. Each time the app is started within the 2 hours, it will login in automatically
 * Home Page: 
-	* Change interval of points (1, 2, or custom number)
-	* Change all players to a certain score
-	* Reset all scores
+	* Create/Delete reports
+	* Create custom reports based on reports already in the system to find out the month/year/custom-date range sales.
+	* Sort reports by month/year/custom date range.
 * Check Page: 
-	* Edit game name
-	* Delete game(s) 
-	* Quick view to see scores without going in game
-	* Export all players and game data
-	* Continue game by clicked on it and pressing play icon
+	* Add/Delete customers
+	* Add/Delete/Edit Checks and their pictures
+	* Searching capability to find a certain check or customer
+	* Customer can be searched using name or last 4 ID numbers
+	* Ability to filter checks/customers by specific store 
+	* Show all stores customers/checks
 * Customer Page:
-	* Change theme (Dark or Light)
-	* Vibration for plus and minus buttons
-	* Keep screen always on during game
-	* Change minus button to invisible
-	* Enable timer for games
+	* Add/Delete/Edit customer ID picture
+	* Add a new check cashed by customer and a oicture of the check
+	* Edit/Delete customer checks and their information like company name, amount, and status of check (real or fake)
 
 ## Purpose
 This app was created specifically for Alkhanshali Inc. and its gas stations. The purpose of this app is to digitize the end day reports to have a digital copy
 in case of need and to create a check database system between the three stores. By having this check database, workers in each store can see if the customer
 has cashed a check before or if any of there checks were fake and so on. This app also stores the customer information so the workers won't have to take 
-any more of their information and will save time.
+any more of their information and as a result, saves time.
 	
 ## Tools
 * Android Studio
