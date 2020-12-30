@@ -1,4 +1,4 @@
-# Oasis_Utilities
+# Oasis Utilities
 
 This application creates end day reports for gas stations and is also a check database system that saves customer information and all the checks they have cashed. 
 
