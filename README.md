@@ -49,5 +49,4 @@ any more of their information and as a result, saves time.
 ## Tools
 * Android Studio
 * Java
-* Kotlin
 * Firebase
